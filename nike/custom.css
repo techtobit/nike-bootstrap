@@ -1,0 +1,82 @@
+/* -- Univerel font --  */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;400;500&display=swap');
+
+
+
+:root {
+ --main-bg-color: #FFF9F4;
+ --main-theme-color: #FA804C;
+ --sub-theme-color: #363958;
+ --paragraph-color: #3E3E3E;
+ --btn-color: #FFFFFF;
+ --btn-bg-color: #3D50FA;
+ --product-bg-color: #F1F1F1;
+}
+
+body {
+ font-family: 'Roboto',
+  sans-serif;
+ background-color: var(--main-bg-color);
+
+}
+
+#section_padding {
+ padding-bottom: 150px;
+}
+
+.home-title {
+ font-family: 'Bebas Neue',
+  cursive;
+}
+
+.home-title-color {
+ font-family: 'Bebas Neue',
+  cursive;
+}
+
+#main_bg_color {
+ background-color: var(--main-bg-color);
+}
+
+
+
+
+#main_color {
+ color: var(--main-theme-color);
+
+}
+
+#sub_color {
+ color: var(--sub-theme-color);
+}
+
+#paragraph_color {
+ color: var(--paragraph-color);
+}
+
+#buy_btn {
+ background-image: linear-gradient(#3D4FF3, #3543BC);
+ font-size: 14px;
+ width: 170px;
+ height: 60px;
+ border-radius: 10px;
+}
+
+/* #btn_bg_color {
+ background-color: var(--btn-bg-color);
+} */
+
+/* main section color  */
+#product_card {
+ width: 370px;
+ height: 550px;
+ border-radius: 20px;
+}
+
+#product_bg {
+ background-color: var(--product-bg-color);
+ width: 334px;
+ height: 327px;
+ border-radius: 20px;
+}
